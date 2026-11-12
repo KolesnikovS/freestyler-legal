@@ -4,9 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Freestyler — политика конфиденциальности</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Golos+Text:wght@400;600;800&family=PT+Mono&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0E0E0C; --s1:#171714; --text:#F1EBDF; --dim:#918D81;
@@ -52,59 +49,67 @@
 
   <section id="ru">
     <h1>Политика конфиденциальности</h1>
-    <p class="meta">Обновлено 11 ноября 2026</p>
-    <p class="lead">Ваши записи остаются на устройстве. Начиная с версии 1.0.2 (52), вы можете отдельно разрешить аналитику использования, чтобы помочь улучшать Freestyler. По умолчанию она выключена.</p>
+    <p class="meta">Обновлено 13 ноября 2026</p>
+    <p class="lead">Ваши записи остаются на устройстве. Freestyler собирает обезличенные сводные счётчики использования и ошибок, чтобы улучшать тренировки. Статистику можно отключить в настройках.</p>
     <h2>Записи и разрешения</h2>
     <p>Микрофон нужен для записи голоса, камера — для видеотейков, доступ на добавление в «Фото» — для сохранения выбранного видео. Приложение не читает вашу фототеку. Обработка голоса, эхоподавление и оценка наличия речи выполняются на устройстве; расшифровка ваших слов не создаётся.</p>
-    <p>Аудио, видео, тексты практики и загруженные вами биты автоматически не отправляются разработчику или в AppMetrica. Вы сами можете сохранить или передать запись через «Поделиться» — тогда её обрабатывает выбранный вами сервис.</p>
-    <h2>Добровольная аналитика</h2>
-    <p>Если вы включите «Аналитику использования», приложение активирует сервис AppMetrica компании YANDEX LLC. До согласия SDK не активируется и события использования не отправляются. Выбор доступен при первом запуске и в настройках.</p>
+    <p>Аудио, видео, тексты практики и загруженные вами биты автоматически не отправляются разработчику или сервисам аналитики. Вы сами можете сохранить или передать запись через «Поделиться» — тогда её обрабатывает выбранный вами сервис.</p>
+    <h2>Статистика использования</h2>
+    <p>Начиная с версии 1.0.2 (54), ограниченная статистика включена по умолчанию. Приложение сначала суммирует действия на устройстве и отправляет только дневные счётчики. Мы не получаем индивидуальную последовательность действий и не создаём профиль посетителя.</p>
     <ul>
-      <li>События: открытие экранов, шаги онбординга, выбор языков и режимов, выбор и время прослушивания битов каталога, начало и завершение тренировок, включение записи, просмотр видео, изменение сведения, открытие меню «Поделиться», сохранение и коды ошибок.</li>
-      <li>Технические сведения: модель устройства и ОС, версия и сборка приложения, языки, время событий, идентификаторы устройства/установки AppMetrica. Статистика может быть связана с этими техническими идентификаторами.</li>
-      <li>При соединении сервер получает IP-адрес; из него может определяться приблизительная страна или регион. GPS, точная геолокация и рекламный идентификатор IDFA отключены.</li>
+      <li>Считаются открытия экранов и интервалы времени на них, шаги онбординга, выбор языков и режимов, выбор и длительность прослушивания встроенных битов, начало и завершение тренировок, включение записи, просмотр видео, изменение сведения, открытие меню «Поделиться», сохранение, повторные нажатия, категории задержек и заранее заданные коды ошибок.</li>
+      <li>Версия сборки и языки используются как отдельные разрезы сводных отчётов. Продолжительность и задержки передаются диапазонами; точное время действия, модель устройства, ОС, часовой пояс устройства и геолокация не отправляются.</li>
+      <li>Первое использование функции, активный день и возвраты через один или семь дней определяются локально. Отправляются их количества, а не постоянный идентификатор установки. Случайный номер пакета нужен только для защиты от повторного учёта доставки; он не связывает разные отправки.</li>
     </ul>
-    <p>В аналитические события не включаются записи, их содержимое, слова или тексты, введённые пользователем, названия личных битов, имена, электронная почта, контакты и пути к файлам. Автоматическая отправка полных отчётов о сбоях отключена. Запрос системного окна оценки учитывается как попытка: приложение не узнаёт, было ли окно показано и какую оценку вы поставили.</p>
-    <p>Цель — понять, где возникают ошибки, удаётся ли начать и сохранить тренировку, какие биты и функции полезны. Аналитика не используется нами для рекламы, продажи данных или отслеживания между приложениями. Рекламный модуль AppMetricaAdSupport исключён из iOS-сборки.</p>
-    <h2>Ваш выбор и хранение</h2>
-    <p>Вы можете отключить аналитику в любое время: Настройки → Аналитика использования. Новые события перестанут отправляться. Это не удаляет автоматически ранее отправленные сведения. Их обработка и хранение происходят в AppMetrica согласно <a href="https://yandex.com/legal/metrica_termsofuse/">условиям сервиса</a> и <a href="https://yandex.com/legal/confidential/">политике Yandex</a>. Вопросы о доступе и удалении данных направляйте разработчику по адресу ниже.</p>
-    <p>Записи и настройки хранятся локально в папке приложения. Отдельную запись можно удалить в списке тейков; удаление приложения удаляет его локальное хранилище. Файлы, которые вы отдельно сохранили в «Фото» или передали другим сервисам, удаляются там отдельно.</p>
-    <h2>Другие обращения</h2>
-    <p>Если вы отправляете отзыв по электронной почте, разработчик получает ваше письмо, адрес отправителя и видимую в черновике версию приложения/ОС. Открытие черновика не отправляет письмо автоматически.</p>
+    <p>Мы не отправляем IDFA, IDFV, идентификаторы устройства, рекламные атрибуты, записи, их содержимое, слова или тексты пользователя, названия личных битов, имена, электронную почту, контакты, пути к файлам, сообщения исключений и полные отчёты о сбоях. Статистика не используется для рекламы, продажи данных, персонализации рекламы или отслеживания между приложениями. Отказ от отслеживания в iOS не обходится; запрос ATT не вызывается.</p>
+    <h2>Обработка и поставщики</h2>
+    <p>Счётчики по HTTPS получает отдельный сервер Freestyler. IP-адрес технически обрабатывается при установлении соединения и временной защите от злоупотреблений, но не сохраняется в журнале обращений или базе статистики. Мы не определяем по нему страну. Заголовки с IP, cookies и данными браузера не передаются в обработчик счётчиков.</p>
+    <p>В AppMetrica компании YANDEX LLC могут передаваться только сводные количества и разрешённые категории. Поставщику не передаются IP-адреса пользователей, их идентификаторы, записи или индивидуальные маршруты. SDK AppMetrica отсутствует в выпускаемой сборке. Обработка сводных отчётов регулируется <a href="https://yandex.com/legal/metrica_termsofuse/">условиями сервиса</a> и <a href="https://yandex.com/legal/confidential/">политикой Yandex</a>.</p>
+    <p>Единственная цель измерения — улучшение самого Freestyler: удобства тренировки, доступности функций и технической надёжности. Для такой ограниченной статистики мы опираемся на законный интерес разработчика в улучшении сервиса и применимые исключения для статистических измерений. Мы не связываем её с рекламными или сторонними данными. Apple App Analytics работает отдельно и зависит от настроек обмена аналитикой iOS.</p>
+    <h2>Ваш выбор и сроки хранения</h2>
+    <p>Вы можете в любое время бесплатно возразить против сбора: Настройки → Статистика использования. Отключение останавливает сбор и отправку, очищает неотправленные счётчики и не ограничивает функции приложения. Предыдущий сохранённый отказ учитывается при обновлении. После повторного включения действия за период отключения не восстанавливаются.</p>
+    <p>Неотправленные счётчики хранятся на устройстве до восьми календарных дней. Локальные даты для измерения возвратов используются не более 31 дня. На нашем сервере сводные счётчики хранятся 90 дней, хеш номера доставки — не более десяти дней. Сводные отчёты AppMetrica могут храниться дольше как обезличенная статистика. Ранее отправленные сводные количества нельзя выделить по конкретному человеку: у нас нет такого идентификатора. Это не мешает обратиться по вопросам обработки данных по адресу ниже.</p>
+    <p>Записи и настройки хранятся локально в папке приложения. Отдельную запись можно удалить в списке тейков; удаление приложения удаляет его локальное хранилище. Копии, сохранённые в «Фото» или переданные другим сервисам, удаляются там отдельно.</p>
+    <h2>Отзывы и оценки</h2>
+    <p>Если вы отправляете отзыв по электронной почте, разработчик получает ваше письмо, адрес отправителя и видимую в черновике версию приложения/ОС. Открытие черновика не отправляет письмо автоматически. Запрос системного окна оценки учитывается только как попытка: приложение не узнаёт, было ли окно показано и какую оценку вы поставили.</p>
     <h2>Предыдущие версии и изменения</h2>
-    <p>Опубликованная версия 1.0.1 не отправляет аналитику AppMetrica. Добровольная аналитика добавляется в 1.0.2 (52); эта страница обновлена перед выпуском. Сервис Apple App Analytics работает отдельно и зависит от настроек обмена аналитикой iOS.</p>
-    <p>Приложение рассчитано на возраст 13+. При изменениях обработки данных мы обновим эту страницу и при необходимости запросим новое согласие.</p>
-    <h2>Контакт</h2>
-    <p><a href="mailto:team.contact.mail@yandex.ru">team.contact.mail@yandex.ru</a></p>
-    <div class="card"><h2 style="margin-top:0">Про биты</h2><p>Часть инструменталов создана для приложения. Другие используются по лицензиям CC0 и CC BY. Авторы, лицензии и ссылки указаны в приложении: Настройки → Биты и лицензии.</p></div>
+    <p>Опубликованная версия 1.0.1 не отправляет аналитику AppMetrica. Тестовые сборки 1.0.2 (52–53) предусматривали добровольную аналитику SDK, выключенную по умолчанию. Описанный здесь сбор сводных счётчиков вводится в сборке 54.</p>
+    <p>Приложение рассчитано на возраст 13+. При изменении обработки мы обновим эту страницу и запросим согласие, если оно потребуется.</p>
+    <h2>Разработчик и контакт</h2>
+    <p>Freestyler · <a href="mailto:team.contact.mail@yandex.ru">team.contact.mail@yandex.ru</a></p>
+    <div class="card"><h2 style="margin-top:0">Про биты</h2><p>Часть инструменталов создана для приложения, другие используются по лицензиям CC0 и CC BY. Авторы, лицензии и ссылки на источники — в Настройки → Биты и лицензии.</p></div>
   </section>
   <hr>
-  <section id="en">
-    <h1>Privacy Policy</h1>
-    <p class="meta">Updated 11 November 2026</p>
-    <p class="lead">Your recordings stay on your device. Starting with version 1.0.2 (52), you can separately opt in to usage analytics to help improve Freestyler. It is off by default.</p>
+  <section id="en" lang="en">
+    <h1>Privacy policy</h1>
+    <p class="meta">Updated 13 November 2026</p>
+    <p class="lead">Your recordings stay on your device. Freestyler collects anonymous aggregate usage and error counts to improve practice. You can turn statistics off in Settings.</p>
     <h2>Recordings and permissions</h2>
     <p>The microphone records your voice, the camera captures video takes, and add-only Photos access saves a video you choose. The app does not read your photo library. Voice processing, echo cancellation and speech-presence analysis run on your device; no transcript is created.</p>
-    <p>Audio, video, practice text and your imported beats are not automatically uploaded to the developer or AppMetrica. You can choose to save or share a recording; the service you choose then handles that file.</p>
-    <h2>Optional usage analytics</h2>
-    <p>If you enable Usage analytics, the app activates AppMetrica, a service provided by YANDEX LLC. Before consent the SDK is not activated and usage events are not sent. You can choose during onboarding and in Settings.</p>
+    <p>Audio, video, practice text and your imported beats are not automatically uploaded to the developer or analytics services. You can choose to save or share a recording; the service you choose then handles that file.</p>
+    <h2>Usage statistics</h2>
+    <p>Starting with version 1.0.2 (54), limited statistics are on by default. The app first sums actions on your device and sends only daily counts. We do not receive an individual action sequence or create a visitor profile.</p>
     <ul>
-      <li>Events: screen views, onboarding steps, language and mode choices, selection and listening time for catalog beats, training starts and finishes, recording, video viewing, mix adjustments, opening the share sheet, saving and functional error codes.</li>
-      <li>Technical information: device model and OS, app version and build, languages, event times and AppMetrica device/installation identifiers. Statistics may be associated with these technical identifiers.</li>
-      <li>The server receives your IP address when connecting; an approximate country or region may be derived from it. GPS, precise location and the IDFA advertising identifier are disabled.</li>
+      <li>Counts cover screen visits and time ranges, onboarding steps, language and mode choices, selection and listening duration for built-in beats, training starts and finishes, recording, video viewing, mix adjustments, opening the share sheet, saving, repeated taps, delay categories and predefined functional error codes.</li>
+      <li>The build version and languages are separate aggregate report dimensions. Durations and delays are sent as ranges; exact action times, device model, OS, device timezone and location are not sent.</li>
+      <li>First feature use, active days and returns after one or seven days are calculated locally. Only counts are sent, without a persistent installation identifier. A random delivery number prevents duplicate counting of one packet; it does not connect separate deliveries.</li>
     </ul>
-    <p>Analytics events do not include recordings or their contents, words or text you enter, personal beat titles, names, email addresses, contacts or file paths. Automatic full crash reporting is disabled. A request for the system rating prompt is recorded as an attempt; the app cannot determine whether iOS showed it or what rating you submitted.</p>
-    <p>We use analytics to identify errors, understand whether people can start and save a training session, and improve useful beats and features. We do not use it for advertising, selling data or tracking across apps. The AppMetricaAdSupport advertising module is excluded from the iOS build.</p>
-    <h2>Your choice and storage</h2>
-    <p>You can turn analytics off at any time in Settings → Usage analytics. New events will stop being sent. This does not automatically delete previously sent information. AppMetrica processes and stores that information under its <a href="https://yandex.com/legal/metrica_termsofuse/">service terms</a> and <a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>. Contact the developer below with access or deletion requests.</p>
-    <p>Recordings and settings are stored locally in the app folder. Delete a take from the list, or delete the app to remove its local storage. Copies you save to Photos or send to other services must be deleted separately there.</p>
-    <h2>Support requests</h2>
-    <p>If you email feedback, the developer receives your message, sender address and the app/OS version visible in the draft. Opening the draft does not send the email automatically.</p>
+    <p>We do not send IDFA, IDFV, device identifiers, advertising attributes, recordings, their contents, user words or text, personal beat titles, names, email addresses, contacts, file paths, exception messages or full crash reports. Statistics are not used for advertising, data sales, ad personalisation or tracking across apps. An iOS tracking refusal is not circumvented; we do not request ATT permission.</p>
+    <h2>Processing and providers</h2>
+    <p>A dedicated Freestyler server receives counts over HTTPS. The IP address is necessarily processed for the connection and temporary abuse prevention, but is not stored in access logs or the statistics database. We do not infer a country from it. IP, cookie and browser-information headers are not forwarded to the counter processor.</p>
+    <p>Only aggregate counts and allowlisted categories may be forwarded to AppMetrica, provided by YANDEX LLC. User IP addresses, identifiers, recordings and individual journeys are not forwarded. The shipping build contains no AppMetrica SDK. Aggregate reporting is subject to the provider’s <a href="https://yandex.com/legal/metrica_termsofuse/">service terms</a> and <a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>.</p>
+    <p>Measurement is used solely to improve Freestyler’s practice experience, feature usability and technical reliability. For this limited statistical measurement, we rely on the developer’s legitimate interest in improving the service and applicable statistical-measurement exemptions. We do not combine it with advertising or third-party data. Apple App Analytics is separate and follows your iOS analytics-sharing settings.</p>
+    <h2>Your choice and retention</h2>
+    <p>You can object at any time, free of charge, in Settings → Usage analytics. Turning it off stops collection and sending, clears unsent counters and does not restrict app features. A previously saved refusal is respected after an update. Re-enabling statistics does not recover actions from the disabled period.</p>
+    <p>Unsent counters stay on your device for up to eight calendar days. Local return-measurement dates are used for up to 31 days. Our server keeps aggregate counters for 90 days and delivery-number hashes for up to ten days. AppMetrica aggregate reports may be retained longer as anonymous statistics. Previously sent aggregate totals cannot be isolated for a particular person because we have no such identifier. You can still contact us about data processing below.</p>
+    <p>Recordings and settings are stored locally in the app folder. Delete a take from the list, or delete the app to remove its local storage. Copies saved to Photos or sent to other services must be deleted separately there.</p>
+    <h2>Feedback and ratings</h2>
+    <p>If you email feedback, the developer receives your message, sender address and the app/OS version visible in the draft. Opening the draft does not send it automatically. A request for the system rating prompt is counted only as an attempt; the app cannot determine whether iOS showed it or what rating you submitted.</p>
     <h2>Earlier versions and changes</h2>
-    <p>The published version 1.0.1 does not send AppMetrica analytics. Optional analytics is introduced in 1.0.2 (52); this policy is updated before release. Apple App Analytics is separate and follows your iOS analytics-sharing settings.</p>
-    <p>The app is intended for ages 13+. We will update this page and request fresh consent when required if our data practices change.</p>
-    <h2>Contact</h2>
-    <p><a href="mailto:team.contact.mail@yandex.ru">team.contact.mail@yandex.ru</a></p>
+    <p>The published version 1.0.1 does not send AppMetrica analytics. Test builds 1.0.2 (52–53) offered optional SDK analytics, off by default. The aggregate-counter collection described here starts with build 54.</p>
+    <p>The app is intended for ages 13+. If our practices change, we will update this policy and request consent where required.</p>
+    <h2>Developer and contact</h2>
+    <p>Freestyler · <a href="mailto:team.contact.mail@yandex.ru">team.contact.mail@yandex.ru</a></p>
     <div class="card"><h2 style="margin-top:0">About the beats</h2><p>Some instrumentals were created for the app. Others are used under CC0 and CC BY licences. Authors, licences and source links are listed under Settings → Beats and licences.</p></div>
   </section>
 
